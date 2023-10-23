@@ -1,0 +1,30 @@
+{
+  "name": "desktopy",
+  "description": "",
+  "version": "1.0.0",
+  "main": "rollup.config.js",
+
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.0",
+    "@types/node": "^18.15.13",
+    "rollup": "^3.20.7",
+    "tslib": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VandeurenGlenn/desktopy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VandeurenGlenn/desktopy/issues"
+  },
+  "homepage": "https://github.com/VandeurenGlenn/desktopy#readme"
+}
